@@ -6,6 +6,15 @@
 
 header {
     font-family: sans-serif;
+    color: gray;
+}
+
+header li a {
+    color: gray;
+}
+
+header li a:hover {
+    color: black;
 }
 
 .clearfix::after {
@@ -22,7 +31,6 @@ header {
 }
 
 #headerLeft {
-    background-color: lightgray;
     float: left;
     width: 35%;
     height: 36px;
@@ -33,14 +41,12 @@ header {
 }
 
 #menuLeft {
-    background-color: lightblue;
     float: left;
     height: 36px;
     line-height: 36px;
 }
 
 #headerRight {
-    background-color: lightgreen;
     float: left;
     width: 65%;
     height: 36px;
@@ -66,12 +72,20 @@ header {
     text-decoration: none;
 }
 
-#accountsDDmenu, #prodottiDDmenu, #aziendaDDmenu {
+#accountsDDmenu,
+#prodottiDDmenu,
+#aziendaDDmenu,
+#aiutoDDmenu,
+#languageDDmenu {
     position: absolute;
     display: none;
 }
 
-#accountsDDmenu li, #prodottiDDmenu li, #aziendaDDmenu li {
+#accountsDDmenu li,
+#prodottiDDmenu li,
+#aziendaDDmenu li,
+#aiutoDDmenu li,
+#languageDDmenu li {
     display: block;
     list-style: none;
     padding-left: 10px;
