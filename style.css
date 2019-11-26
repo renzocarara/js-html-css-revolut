@@ -30,7 +30,7 @@ header li a:hover {
     padding: 40px 0;
 }
 
-#headerLeft {
+#header-left {
     float: left;
     width: 35%;
     height: 36px;
@@ -40,53 +40,55 @@ header li a:hover {
     float: left;
 }
 
-#menuLeft {
+#menu-left {
     float: left;
     height: 36px;
     line-height: 36px;
 }
 
-#headerRight {
+#header-right {
     float: left;
     width: 65%;
     height: 36px;
     line-height: 36px;
 }
 
-#menuRightList {
+#menu-right-list {
     float: right;
 }
 
-#menuLeftList {
+#menu-left-list {
     float: left;
     text-transform: uppercase;
 }
 
-#menuLeftList li, #menuRightList li {
+#menu-left-list li,
+#menu-right-list li {
     list-style: none;
     display: inline-block;
     padding-left: 20px;
 }
 
-#menuLeftList li a, #menuRightList li a {
+#menu-left-list li a,
+#menu-right-list li a {
     text-decoration: none;
 }
 
-#accountsDDmenu,
-#prodottiDDmenu,
-#aziendaDDmenu,
-#aiutoDDmenu,
-#languageDDmenu {
+#menu-right-list ul {
     position: absolute;
     display: none;
 }
 
-#accountsDDmenu li,
-#prodottiDDmenu li,
-#aziendaDDmenu li,
-#aiutoDDmenu li,
-#languageDDmenu li {
+#menu-right-list ul li {
     display: block;
     list-style: none;
     padding-left: 10px;
+}
+
+.menu-item span {
+    cursor: pointer;
+}
+
+.menu-item.active-menu {
+    color: black;
 }
