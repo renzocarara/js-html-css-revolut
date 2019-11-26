@@ -93,7 +93,7 @@ header li a:hover {
     color: black;
 }
 
-#menu-right-list li:nth-child(7) a {
+#cta {
     color: white;
     padding: 10px 24px;
     cursor: pointer;
