@@ -89,6 +89,14 @@ header li a:hover {
     cursor: pointer;
 }
 
-.menu-item.active-menu {
+.active-menu {
     color: black;
+}
+
+#menu-right-list li:nth-child(7) a {
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    background-color: #eb008d;
+    border-radius: 20px;
 }
