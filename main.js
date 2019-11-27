@@ -32,9 +32,9 @@ $(document).ready(function() {
         // }
     });
 
-
+    // #language-menu+.dd-menu span
     // intercetto click sulla dropdown menu per il cambio lingua
-    $('#menu-right-list li:nth-child(6) .dd-menu span').click(function() {
+    $('#language-menu-dd span').click(function() {
 
         // console.log("$(this).text", $(this).text());
 
