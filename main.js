@@ -4,11 +4,11 @@ $(document).ready(function() {
     // intercetto il click sulla voce menu attraveso la sua classe
     $(".menu-item").mouseenter(function() {
 
-        // verifico che il menu cliccato non sia già visualizzato ma sia
+        // verifico che il menu selezionato non sia già visualizzato ma sia
         // nascosto (hidden) quindi da visualizzare
         // se non fosse così non faccio nulla, lo lascio visualizzato
         // alrimenti entro nell'if, chiudo eventuali altri menu aperti
-        // e poi visualizzo quello che è stato cliccato
+        // e poi visualizzo quello che è stato selzionato
         if ($(this).children(".dd-menu").is(":hidden")) {
 
             // chiudo tutti i dropdown menu eventualmente aperti
